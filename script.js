@@ -60,7 +60,7 @@ const hand = document.getElementById("emoji");
 
 var typed = new Typed('.element', {
     // Waits 1000ms after typing "First"
-    strings: ['Machine Learning.', 'Business Intelligence.', 'Data Visualization.', 'Deep Learning.', 'ML Applications.', 'Project Management.'],
+    strings: ['Data Analysis.', 'Business Intelligence.', 'Machine Learning.', 'Busines Analysis', 'Data Visualization.', 'Deep Learning.', 'Machine Learning Applications.', 'Project Management.'],
     typeSpeed: 100,
     loop: true,
     loopCount: Infinity,
@@ -85,11 +85,11 @@ var typed = new Typed('.element', {
 
 
 var arr = [
-    { "Name": "Predictive Analysis of Retail Sales: Furniture and Home Furnishings", "Link": "https://github.com/Tobi-Ek/Predictive-Analysis-of-Retail-Sales-_-Furniture-and-Home-Furnishings", 'Description': 'Provided valuable data insights for strategic planning on furniture and home furnishings products by carrying out exploratory data analysis using Excel and PowerBI. Finally provided predictive analysis using Holt-Winters model with R programming language in well documented reports.', 'Tech': 'PowerBI | R | RStudio | Timeseries Forecast'},
-    { "Name": "Application of Database Systems and Analytics to Covid19 Disease", "Link": "https://github.com/Tobi-Ek/Application-of-Database-Systems-and-Analytics-to-Covid19-Disease", 'Description': 'Used python for web-scrapping data off websites, extracted XML data, stored these data into mongoDB, cleaned and saved the processed data into PostgreSQL and created data visualizations showing the global impact of COVID-19.', 'Tech': 'Python | Webscrapping | MongoDB | PostgreSQL | Pandas | MathLib | MS Excel'},
-    { "Name": "Evaluation of Machine Learning Algorithms", "Link": "https://github.com/Tobi-Ek/Evaluation-of-Machine-Learning-Algorithms", 'Description': 'Evaluated five (5) different machine learning models using R programming language on housing price, bank loan and crimes data.', 'Tech': 'R | R Studio'},
-    { "Name": "London Underground High-Speed Line Simulation and Optimization", "Link": "https://github.com/Tobi-Ek/Simulation-and-Optimisation-of-HS2-Train-Line-From-London-to-Birmingham", 'Description': 'The project involved discrete event simulation and optimization. The project modelled, simulated and optimized the London Old Oak Commons to Birmingham Interchange section of the London Underground high-speed line.', 'Tech': 'Python | SimPy | Pandas | Numpy'},
-	{ "Name": "GreenFinder Deep Learning", "Link": "https://github.com/Tobi-Ek/GreenFinder-Deep-Learning", 'Description': 'Developed an android mobile app (GreenFinder), trained, and evaluated two deep learning image classification models for the use-case. The mobile app classifies scanned fruits, vegetables and flowers, as well as provides knowledgeable information on each classified item.', 'Tech': 'Python | TensorFlow | Keras | TensorFlow Lite | Knowledge Graph | MS Excel | Android Studio'},
+    { "Name": "TCD Self-Organising Motorway Project", "Link": "https://github.com/minthillanalytics", 'Description': 'The “Future Cities” Project in Trinity College Dublin investigates a “Self-Organising Motorway” as a possible approach to reduce congestion on motorways. Aspects of this research were replicated using a simulation model implemented in SimPy v.4.', 'Tech': 'PowerBI | R | RStudio | Timeseries Forecast'},
+    { "Name": "London Underground High-Speed Line Simulation and Optimization", "Link": "https://github.com/minthillanalytics", 'Description': 'A simulation for the London Old Oak Commons to Birmingham Interchange section of the high-speed line. The project involved discrete event simulation and optimization.', 'Tech': 'Python | SimPy | Pandas | Numpy'},
+    { "Name": "Stochastic Modelling of Warehouse Robots Working Condition", "Link": "https://github.com/minthillanalytics", 'Description': 'A technology company operates several large warehouses which are staffed mainly by robots. These robots perform various essential functions, including picking up packages and transporting them to where they are needed. In order for warehouse operations to run efficiently, it is imperative that robots are kept in good working condition.', 'Tech': 'Python | Markov Chain Model | MS Excel'},
+    { "Name": "Mobile License Plate Recognition Application", "Link": "https://github.com/minthillanalytics", 'Description': 'A machine learning solution designed to verify license plate for law enforcement and control.', 'Tech': Python | Deep Learning | Image Processing | Text Recognintion | Database Management'},
+	{ "Name": "Personal Finance Book-Keeper", "Link": "https://github.com/minthillanalytics", 'Description': 'A machine learning solution designed to update and provide comprehensive personal financial breakdown based on hardcopy and softcopy reciepts.', 'Tech': 'Python | Deep Learning | TensorFlow | Image Processing | Text Recognintion | Flutter | Adobe XD'},
   ];
 
 $.each(arr, function (i) {
