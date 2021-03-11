@@ -7,7 +7,7 @@ const checkbox = document.getElementById('toggle');
 // var str = "<p class = \"introhello\"><h1 class=\"text-primary\">Hello! <span id = \"emoji\" class = \"emoji animated\" onmouseover=\"bounce();\">&#x1f44b;&#x1f3fe;</span></h1> </p> <h2 class=\"introtagline\">I'm<span class=\"text-primary\"> Tobi Ekundayo</span>, a Data Anayst is based in Dublin, Ireland. I am passionate about <strong>providing valuable insights from data and developing innovative machine learning solutions.</strong></h2>",
 //     i = 0,
 //     isTag,
-//     text; 
+//     text;
 
 // (function type() {
 //     text = str.slice(0, ++i);
