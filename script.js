@@ -8,7 +8,7 @@ const checkbox = document.getElementById('toggle');
 //     i = 0,
 //     isTag,
 //     text; 
- 
+
 // (function type() {
 //     text = str.slice(0, ++i);
 //     if (text === str) return;
