@@ -12,7 +12,7 @@ const checkbox = document.getElementById('toggle');
 // (function type() {
 //     text = str.slice(0, ++i);
 //     if (text === str) return;
-    
+
 //     document.getElementById('typewriter').innerHTML = text;
 
 //     var char = text.slice(-1);
